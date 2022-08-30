@@ -1,0 +1,13 @@
+turtle.setPosition(0, 0)
+turtle.turnRight()
+turtle.setSpeed(25)
+basic.forever(function () {
+    turtle.forward(1)
+    turtle.turnRight()
+    turtle.forward(1)
+    turtle.turnRight()
+    turtle.forward(1)
+    turtle.turnLeft()
+    turtle.forward(1)
+    turtle.turnLeft()
+})
